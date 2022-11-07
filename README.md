@@ -5,7 +5,8 @@ This project contains an implementation of a compiler for the C language. The co
 ## Using the Compiler 
 To compile a program, first build the compiler from the source files using ```make```. Then, run the following command: 
 
-    >> ./cc <filename> <outfile> <0/1 for dumping AST> <0/1 for code optimization> <0/1 for dumping optimized AST>
+    >> ./cc <filename> <outfile> <0/1 for dumping AST> 
+    <0/1 for code optimization> <0/1 for dumping optimized AST>
 
 The output file is ```outfile```. For the sake of convention, the outfile may be named as ```<filename>.ll```. 
 
